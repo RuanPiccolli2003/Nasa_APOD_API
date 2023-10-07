@@ -1,0 +1,39 @@
+.texto{
+    color: white;
+
+}
+
+button:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: rgb(228, 45, 203);
+    color: black;
+    
+}
+
+button:not(:hover){
+    transition: 0.5s;
+    
+}
+img{
+overflow-x: hidden;
+overflow-y: hidden;
+
+
+}
+
+
+
+.container{
+    
+    align-items: block;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    border-radius: 30px;
+
+}
+
+p{
+    padding-top: 20px;
+}
