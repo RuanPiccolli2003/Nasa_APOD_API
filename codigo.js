@@ -27,14 +27,10 @@ function Midia(){
     image.style.paddingBottom ="20px"
     image.src = imageUrl
 
-
-    
     document.getElementById('text').innerHTML = a.title
     
-    
+
     imagemDiv.append(image)
-   
-    
    
     }
     if(xhttp.status === 400){
