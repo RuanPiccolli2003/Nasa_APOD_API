@@ -1,5 +1,5 @@
 const api_key = "AIGiccrbz747T7HZOXjDUg4fWG0rGyyXVclVPfwW"
-const url = "https://api.nasa.gov/planetary/apod?"
+const Url = "https://api.nasa.gov/planetary/apod?"
 
 
 function Midia(){
@@ -9,46 +9,66 @@ function Midia(){
 
     var input = document.querySelector('input')
     var data = input.value
+   
 
     
     var xhttp = new XMLHttpRequest();
-    xhttp.open("GET", url + "&date=" + data + "&api_key=" + api_key , false);
+    xhttp.open("GET", Url + "&date=" + data + "&api_key=" + api_key , false);
     xhttp.send();
-    if(xhttp.status === 200){
     console.log(xhttp.responseText);
-    var a = JSON.parse(xhttp.responseText)
-    var imageUrl = a.hdurl
+    if(xhttp.status === 200){
    
-    var image = document.createElement('img')
-    
+    var a = JSON.parse(xhttp.responseText)
+    var imageUrl = a.url
 
-    image.style.height = "50vh"
-    image.style.paddingTop = "5px"
-    image.style.paddingBottom ="20px"
+        var image = document.createElement('embed')
+    
+   
+        image.style.width = "400px"
+        image.style.height = "400px"
+        image.style.paddingTop = "50px"
+        image.style.paddingBottom ="20px"
+    
     image.src = imageUrl
 
+   
     document.getElementById('text').innerHTML = a.title
     
+    document.getElementById('ex').innerHTML = a.explanation
+    
+    console.log(a.media_type)
+   
 
     imagemDiv.append(image)
    
+    
     }
     if(xhttp.status === 400){
-        var a= document.getElementById('')
+        var b = document.getElementById('ex')
+        b.innerHTML = " "
 
+        var dat = document.getElementById('text')
+       
+        dat.innerText = "Data invalida"
+    
+       
+        
     }
 
+    
+
+    
 }
 
 
 function Clear(){
 
     
-    var a = document.getElementById('text')
-    a.innerHTML = " "
+    var limpa_tex = document.getElementById('text')
+    limpa_tex.innerHTML = " "
 
-    var b = document.getElementById('erro')
-    b.innerHTML = " "
+    var limpa_ex = document.getElementById('ex')
+    limpa_ex.innerHTML = " "
     
    
     
