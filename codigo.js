@@ -1,7 +1,6 @@
 const api_key = "LVyxEgG1FnwDpZXxsVI83n115ymOz8MubZ6cPxWY"
 const Url = "https://api.nasa.gov/planetary/apod?"
 
-
 function Midia(){
     
     var imagemDiv = document.getElementById('text')
@@ -10,11 +9,9 @@ function Midia(){
     var input = document.querySelector('input')
     var data = input.value
    
-
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", Url + "&date=" + data + "&api_key=" + api_key, false);
-
-    
+   
     xhttp.send();
 
     console.log(xhttp.responseText);
@@ -25,11 +22,10 @@ function Midia(){
 
     var image = document.createElement('embed')
     
-   
-        image.style.width = "400px"
-        image.style.height = "400px"
-        image.style.paddingTop = "50px"
-        image.style.paddingBottom ="20px"
+    image.style.width = "400px"
+    image.style.height = "400px"
+    image.style.paddingTop = "50px"
+    image.style.paddingBottom ="20px"
     
     image.src = imageUrl
 
@@ -51,11 +47,9 @@ function Midia(){
        
         dat.innerText = "Data invalida"
     
-       
 }
 
-    
-
+   
 }  
 
 
