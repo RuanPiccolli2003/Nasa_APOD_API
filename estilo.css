@@ -33,13 +33,14 @@ overflow-y: hidden;
     border-radius: 30px;
     width: 100%;
     height: 100%;
+ 
 
 }
 
 p{
     padding-top: 20px;
 }
-video{
-    overflow-x: hidden;
-    overflow-y: hidden; 
+iframe{
+    
+    margin: 900px;
 }

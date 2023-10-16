@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Odyssey - Informação do trabalho</title>
+  <title>2001 - Informação do trabalho</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,11 +38,15 @@
 
     <h2 class="text-center mt-5 display-6">Como foi construido o codigo</h2>
     <p  class="text-start pt-5" style="text-indent: 50px;" >Primeiro, obtive a chave da API para ter acesso a suas funcionalidades,
-    copiei a url base e a declarei como constante, criei uma função chamada midia, dentro desta função 
-  criei o objeto XMLHttpRequest para assim, obter a API e seus metodos. Utilizei o metodo open, 
+copiei a url base e a declarei como constante, criei uma função chamada midia, dentro desta função 
+criei o objeto XMLHttpRequest para assim, obter a API e seus metodos. Utilizei o metodo open, 
 em seus parametros, utilizei o metodo GET para assim obter as Midias da biblioteca, Fiz a concatenação utilizando a constante da url da api junto a chave criando assim 
 um link para o conexao com o serviço na nasa, ainda dentro do metodo, e o metodo send para
-realizar a requisição.  </p>
+realizar a requisição. criei uma condição para o tratamento de erro
+no caso do formato da data estiver invalido no caso do codigo 400,
+exiba a mensagem "data invalida", tudo isto utilizando o botao solicitar.
+criei uma funcao chamada clear, para o botao limpar, par assim limpar os campos 
+e realizar uma nova requisição !!  </p>
     
   </main>
 </div>
