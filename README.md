@@ -1,15 +1,22 @@
-contexto
+contexto 
+
 
 Trabalho referente a disciplina de Desenvolvimento web
 do curso de Sistema de Informação.
 
+
+
 Informações do curso
+
 
 Semestre: 2 periodo
 Nome: Ruan Carlos Piccolli
 Curso: Sistemas de Informação
 
+
+
 sobre a aplicação
+
 
 Nesta aplicação é utilizada a API APOD (Astronomy Picture of the Day) da nasa.
 A api consiste em, com base na data especificada no campo é retornado
