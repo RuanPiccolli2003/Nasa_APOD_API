@@ -17,7 +17,7 @@ do curso de Sistema de Informação.
 
 
 
-# Sobre a aplicação:
+# Sobre a aplicação
 
 
 Nesta aplicação é utilizada a API APOD (Astronomy Picture of the Day) da nasa.
