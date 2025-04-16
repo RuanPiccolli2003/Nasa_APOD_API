@@ -1,15 +1,16 @@
-# Contexto:
+# Contexto
 
-
+<h1>
 Trabalho referente a disciplina de Desenvolvimento web
 do curso de Sistema de Informação.
+</h1>
+
+
+# Informações do curso
 
 
 
-# Informações do curso:
-
-
-Semestre: 2 periodo
+Semestre: 2
 Nome: Ruan Carlos Piccolli
 Curso: Sistemas de Informação
 
