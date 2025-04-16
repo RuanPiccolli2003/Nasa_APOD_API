@@ -6,13 +6,14 @@ do curso de Sistema de Informação.
 
 
 
-# Informações do curso
+# Sobre o curso
 
 
 
-Semestre: 2
-Nome: Ruan Carlos Piccolli
-Curso: Sistemas de Informação
+<strong>Nome:</strong> Ruan Carlos Piccolli
+<strong>Matéria: </strong> Desenvolvimento Web
+<strong>Curso:</strong> Sistemas de Informação 
+<strong>Periodo:</strong> 2
 
 
 
