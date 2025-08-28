@@ -2,7 +2,7 @@
 
 
 Trabalho referente a disciplina de Desenvolvimento web
-do curso de Sistema de Informação.
+do curso de Sistemas de Informação.
 
 
 
